@@ -1,0 +1,9 @@
+parameters:
+    
+    cashmachine.class: Cashmachine\CoreBundle\Services\CashMachineService
+    
+
+services:
+        
+    cashmachine.core.base:
+        class: %cashmachine.class%

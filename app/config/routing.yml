@@ -1,0 +1,5 @@
+cashmachine_core:
+    resource: "@CashmachineCoreBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
